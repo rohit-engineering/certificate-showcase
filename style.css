@@ -1,0 +1,129 @@
+body {
+    background-color: #f2f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-header {
+    background: #ffffff;
+    padding: 40px 0 10px;
+  }
+  
+  .page-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 0;
+  }
+  
+  .page-header p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  /* Animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-in-out;
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Section Style */
+  .certificate-section {
+    background: linear-gradient(to right, #ffffff, #f0f2f5);
+  }
+  
+  .certificate-img {
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .certificate-info {
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  /* Skill Tags */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .skill-tag {
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Buttons */
+  .btn-modern {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .btn-modern:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  .blue {
+    background-color: #007bff;
+  }
+  
+  .green {
+    background-color: #28a745;
+  }
+  
+  .orange {
+    background-color: #fd7e14;
+  }
+  
+  .gray {
+    background-color: #6c757d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #777;
+    border-top: 1px solid #ddd;
+  }
+  footer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

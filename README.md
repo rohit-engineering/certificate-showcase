@@ -1,5 +1,7 @@
 # Certificate Showcase Page
-#Internship task given by @Give My Certificate company
+
+<h2>Internship task given by @Give My Certificate company</h2>
+
 This is a responsive and modern web page to showcase a course certificate with key details like:
 
 - Course name
